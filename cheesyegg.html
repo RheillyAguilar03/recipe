@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/02d4831be3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <title>Recweb</title>
+</head>
+
+<body>
+
+    <section class="dots-container">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </section>
+
+    <!--    Navigation Section  -->
+    <nav class="w-11/12 mx-auto mt-5 bg-green-600 flex items-center justify-between rounded-xl p-7 shadow-black shadow-md"
+        id="navigation">
+
+        <div class="icon menu-button text-white text-2xl hidden">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="icon exit-button text-white text-2xl hidden">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <h1 class="text-white text-2xl cursor-default">Recweb</h1>
+
+        <ul class="flex items-center" id="navigation-links">
+            <li><a href="index.html" class="mr-10 text-2xl font-semibold text-white">Home</a></li>
+            <li><a href="recipepage.html" class="mr-10 text-2xl font-semibold text-white">Recipe</a></li>
+            <li><a href="blog.html" class="mr-10 text-2xl font-semibold text-white">Blog</a></li>
+            <li><a href="about.html" class="mr-10 text-2xl font-semibold text-white">About</a></li>
+
+        </ul>
+
+        <div class="flex">
+            <i class="fa-brands fa-square-facebook mr-2 text-2xl text-white"></i>
+            <i class="fa-brands fa-instagram mr-2 text-2xl text-white"></i>
+            <i class="fa-brands fa-square-twitter mr-2 text-2xl text-white"></i>
+        </div>
+
+    </nav>
+
+
+    <!--    Recipe  -->
+    <section class="pt-20 mb-20 w-11/12 mx-auto">
+
+        <div class="flex items-center justify-around" id="lecheflan-page">
+
+
+            <!--    Recipe Image    -->
+            <div class="lecheflan-image">
+
+                <div class="max-w-lg mb-7" id="primary">
+                    <img src="asset/cheesyegg.jpg" class="mb-2 w-full rounded-xl" id="Main-image">
+                </div>
+
+                <div class="flex justify-between max-w-lg" id="secondary">
+                    <img src="asset/cheesyegg.jpg" alt="" class="w-1/6 rounded-xl Small-image cursor-pointer hover:shadow-lg hover:shadow-black">
+                    <img src="recipepage-asset/cheesyegg01.jpg" alt="" class="w-1/6 rounded-xl Small-image cursor-pointer hover:shadow-lg hover:shadow-black">
+                    <img src="recipepage-asset/cheesyegg02.jpeg" alt="" class="w-1/6 rounded-xl Small-image cursor-pointer hover:shadow-lg hover:shadow-black">
+                    <img src="recipepage-asset/cheesyegg03.jpg" alt="" class="w-1/6 rounded-xl Small-image cursor-pointer hover:shadow-lg hover:shadow-black">
+                    <img src="recipepage-asset/cheesyegg04.jpg" alt="" class="w-1/6 rounded-xl Small-image cursor-pointer hover:shadow-lg hover:shadow-black">
+
+                </div>
+            </div>
+
+
+            <!--    Recipe Information  -->
+            <div class="ml-10" id="recipe-info">
+
+                <!--    Recipe name and type    -->
+                <div class="mb-3">
+                    <h1 class="text-3xl font-bold">Cheesy Egg Toast</h1>
+                    <div class="flex mb-2" id="recipe-type">
+                        <p class="flex items-center mr-4 text-lg"><img src="asset/breakfast-icon.png" alt=""
+                                class="mr-1">Breakfast</p>
+                        <p class="flex items-center mr-4 text-lg"><img src="asset/chronometer.png" alt=""
+                                class="mr-1">15 minutes cooking time</p>
+                    </div>
+                </div>
+
+                <!--    Ingredients -->
+                <div class="mb-3">
+                    <h1 class="text-3xl font-bold">Ingredients</h1>
+                    <ul>
+                        <li class="text-lg mb-1">1 egg</li>
+                        <li class="text-lg mb-1">1 piece of bread</li>
+                        <li class="text-lg mb-1">a hand full of mozzarella</li>
+                        <li class="text-lg mb-1">4 tablespoons white vinegar</li>
+                        <li class="text-lg mb-1">a pinch of pepper</li>
+                        <li class="text-lg mb-1">1 tsp of olive oil</li>
+                    </ul>
+                </div>
+
+                <!--    Instruction -->
+                <div>
+                    <h1 class="text-3xl font-bold">Instruction</h1>
+                    <ul class="instruction">
+                        <li class="text-lg mb-1 flex items-center"><img src="number/one.png" alt="" class="mr-2">Crack an egg into a tray at least bigger than your slice of bread.</li>
+                        <li class="text-lg mb-1 flex items-center"><img src="number/two.png" alt="" class="mr-2">Whisk the egg with a fork then place your slice of bread into the mixture making sure you coat both sides.</li>
+                        <li class="text-lg mb-1 flex items-center"><img src="number/three.png" alt="" class="mr-2">Put on a frying pan on a low to medium heat with a teaspoon of olive oil in the centre of the pan.</li>
+                        <li class="text-lg mb-1 flex items-center"><img src="number/four.png" alt="" class="mr-2">Place your coated slice of bread into the frying pan.</li>
+                        <li class="text-lg mb-1 flex items-center"><img src="number/five.png" alt="" class="mr-2">Add a pinch of black pepper and a handful of grated cheese to cover the bread slice.</li>
+                        <li class="text-lg mb-1 flex items-center"><img src="number/six.png" alt="" class="mr-2">Grab a spatula and flip the bread over and then sprinkle cheese and black pepper onto the other side.</li>
+                        <li class="text-lg mb-1 flex items-center"><img src="number/seven.png" alt="" class="mr-2">When fully cooked place onto a plate and enjoy.</li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--    Review Recipe   -->
+    <section class="pt-20 mb-20 w-11/12 mx-auto">
+
+        <h1 class="text-3xl text-center font-bold tracking-widest mb-10">Reviews</h1>
+        <div class="flex flex-wrap justify-center">
+
+            <div class="bg-[#e8f5e9] max-w-xs p-9 rounded-2xl m-3" id="carousel-content">
+                <img src="asset/man.png" alt="" class="bg-[#ef5350] rounded-full h-32 mb-6 mx-auto">
+                <div>
+                    <div class="flex flex-row items-center justify-center mb-5 text-yellow-500">
+                        <i class="fa-solid fa-star mr-1"></i>
+                        <i class="fa-solid fa-star mr-1"></i>
+                        <i class="fa-solid fa-star mr-1"></i>
+                        <i class="fa-solid fa-star-half-stroke mr-1"></i>
+                        <i class="fa-regular fa-star mr-1"></i>
+                    </div>
+                    <h1 class="text-xl text-center font-bold mb-6">Someone Name</h1>
+                    <p class="text-center text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        A exercitationem dolore saepe ullam neque qui!</p>
+                </div>
+            </div>
+
+            <div class="bg-[#e8f5e9] max-w-xs p-9 rounded-2xl m-3" id="carousel-content">
+                <img src="asset/girl.png" alt="" class="bg-[#ef5350] rounded-full h-32 mb-6 mx-auto">
+                <div>
+                    <div class="flex flex-row items-center justify-center mb-5 text-yellow-500">
+                        <i class="fa-solid fa-star mr-1"></i>
+                        <i class="fa-solid fa-star mr-1"></i>
+                        <i class="fa-solid fa-star mr-1"></i>
+                        <i class="fa-solid fa-star-half-stroke mr-1"></i>
+                        <i class="fa-regular fa-star mr-1"></i>
+                    </div>
+                    <h1 class="text-xl text-center font-bold mb-6">Someone Name</h1>
+                    <p class="text-center text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        A exercitationem dolore saepe ullam neque qui!</p>
+                </div>
+            </div>
+
+            <div class="bg-[#e8f5e9] max-w-xs p-9 rounded-2xl m-3" id="carousel-content">
+                <img src="asset/man.png" alt="" class="bg-[#ef5350] rounded-full h-32 mb-6 mx-auto">
+                <div>
+                    <div class="flex flex-row items-center justify-center mb-5 text-yellow-500">
+                        <i class="fa-solid fa-star mr-1"></i>
+                        <i class="fa-solid fa-star mr-1"></i>
+                        <i class="fa-solid fa-star mr-1"></i>
+                        <i class="fa-solid fa-star-half-stroke mr-1"></i>
+                        <i class="fa-regular fa-star mr-1"></i>
+                    </div>
+                    <h1 class="text-xl text-center font-bold mb-6">Someone Name</h1>
+                    <p class="text-center text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        A exercitationem dolore saepe ullam neque qui!</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--    Recommend Other Recipe  -->
+    <section class="pt-20 mb-36 w-11/12 mx-auto">
+
+        <h1 class="text-3xl text-center font-bold tracking-widest mb-10">Recommend Recipes</h1>
+
+        <div class="flex flex-wrap items-center justify-center">
+
+            <div
+                class="bg-[#e8f5e9] max-w-sm rounded-xl m-5 overflow-hidden hover:scale-110 hover:shadow-lg hover:shadow-black duration-200 ease-in-out">
+                <div class="flex" id="heart">
+                    <img src="asset/lecheflan.jpg"
+                        alt="" class="object-cover w-full rounded-lg h-64">
+                    <button
+                        class="flex absolute m-2 bg-black text-white p-2 rounded-full  wishlist"><i
+                            class="fa-solid fa-heart"></i></button>
+                </div>
+                <div class=" px-10 py-7">
+                    <h1 class="text-center text-lg mb-5 font-bold">Leche flan</h1>
+                    <p class=" text-sm  flex items-center mb-3"><img src="asset/cupcake-icon.png" class="mr-2"
+                            alt="">Dessert</p>
+                    <p class=" text-sm flex items-center mb-5"><img src="asset/chronometer.png" alt="" class="mr-2"> 50 minutes
+                        cooking time</p>
+                    <a href="lecheflan.html"
+                        class="bg-green-600 px-4 py-2 text-white rounded-lg flex items-center justify-center hover:bg-[#ef5350] duration-150 ease-in-out">View Recipe</a>
+                </div>
+            </div>
+
+            <div
+            class="bg-[#e8f5e9] max-w-sm rounded-xl m-5 overflow-hidden hover:scale-110 hover:shadow-lg hover:shadow-black duration-200 ease-in-out">
+            <div class="flex" id="heart">
+                <img src="asset/chickenadobo.jpg" alt="" class="object-cover w-full rounded-lg h-64">
+                <button class="flex absolute m-2 bg-black text-white p-2 rounded-full  wishlist"><i
+                        class="fa-solid fa-heart"></i></button>
+            </div>
+            <div class=" px-10 py-7">
+                <h1 class="text-center text-lg mb-5 font-bold">Chicken Adobo</h1>
+                <p class=" text-sm  flex items-center mb-3"><img src="asset/turkey-icon.png" class="mr-2"
+                        alt="">Dish</p>
+                <p class=" text-sm flex items-center mb-5"><img src="asset/chronometer.png" alt="" class="mr-2"> 45
+                    minutes
+                    cooking time</p>
+                <a href="chickenadobo.html"
+                    class="bg-green-600 px-4 py-2 text-white rounded-lg flex items-center justify-center hover:bg-[#ef5350] duration-150 ease-in-out">View
+                    Recipe</a>
+            </div>
+        </div>
+
+            <div
+            class="bg-[#e8f5e9] max-w-sm rounded-xl m-5 overflow-hidden hover:scale-110 hover:shadow-lg hover:shadow-black duration-200 ease-in-out">
+            <div class="flex" id="heart">
+                <img src="asset/carbonara.jpg" alt="" class="object-cover w-full rounded-lg h-64">
+                <button class="flex absolute m-2 bg-black text-white p-2 rounded-full  wishlist"><i
+                        class="fa-solid fa-heart"></i></button>
+            </div>
+            <div class="px-10 py-7">
+                <h1 class="text-center text-lg mb-5 font-bold">Carbonara</h1>
+                <p class=" text-sm flex items-center mb-3"><img src="asset/spaguetti-icon.png" class="mr-2"
+                        alt="">Pasta</p>
+                <p class=" text-sm flex items-center mb-5"><img src="asset/chronometer.png" alt="" class="mr-2"> 55
+                    minutes
+                    cooking time</p>
+                <a href="carbonara.html"
+                    class="bg-green-600 px-4 py-2 text-white rounded-lg flex items-center justify-center hover:bg-[#ef5350] duration-150 ease-in-out">View
+                    Recipe</a>
+            </div>
+        </div>
+
+
+        <div
+        class="bg-[#e8f5e9] max-w-sm rounded-xl m-5 overflow-hidden hover:scale-110 hover:shadow-lg hover:shadow-black duration-200 ease-in-out">
+        <div class="flex" id="heart">
+            <img src="asset/Igado.jpg" alt="" class="object-cover w-full rounded-lg h-64">
+            <button class="flex absolute m-2 bg-black text-white p-2 rounded-full  wishlist"><i
+                    class="fa-solid fa-heart"></i></button>
+        </div>
+        <div class=" px-10 py-7">
+            <h1 class="text-center text-lg mb-5 font-bold">Igado</h1>
+            <p class=" text-sm  flex items-center mb-3"><img src="asset/turkey-icon.png" class="mr-2"
+                    alt="">Dish</p>
+            <p class=" text-sm flex items-center mb-5"><img src="asset/chronometer.png" alt="" class="mr-2"> 120
+                minutes
+                cooking time</p>
+            <a href="igado.html"
+                class="bg-green-600 px-4 py-2 text-white rounded-lg flex items-center justify-center hover:bg-[#ef5350] duration-150 ease-in-out">View
+                Recipe</a>
+        </div>
+    </div>
+        </div>
+
+    </section>
+
+    <!--    Footer Section  -->
+    <footer class="p-7 w-11/12 mx-auto mb-5 bg-green-600 rounded-xl">
+
+        <h1 class="mb-5 text-white text-2xl">Recweb</h1>
+
+        <div class="flex flex-wrap items-center justify-between">
+
+            <div class="mb-5">
+                <h1 class="text-white text-2xl">Quick Links</h1>
+                <ul>
+                    <li><a href="index.html" class="text-white">Home</a></li>
+                    <li><a href="recipepage.html" class="text-white">Recipe</a></li>
+                    <li><a href="blog.html" class="text-white">Blog</a></li>
+                    <li><a href="about.html" class="text-white">About</a></li>
+                </ul>
+            </div>
+
+            <div class="mb-5">
+                <h1 class="text-white text-2xl">Social Media</h1>
+                <div>
+                    <p class="flex flex-row items-center text-white text-xl"><i
+                            class="fa-brands fa-square-facebook mr-2"></i>Facebook</p>
+                    <p class="flex flex-row items-center text-white text-xl"><i
+                            class="fa-brands fa-instagram mr-2"></i>Instagram</p>
+                    <p class="flex flex-row items-center text-white text-xl"><i
+                            class="fa-brands fa-square-twitter mr-2"></i>Twitter</p>
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <h1 class="text-white text-2xl">Stay Tune with us!</h1>
+                <p class="text-white mb-3 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <form action="" id="form">
+                    <input type="email" placeholder="Email" class="px-5 py-2 outline-none" id="footer-subscribe">
+                    <button class="bg-white px-5 py-2.5 absolute text-sm">Subscribe</button>
+                </form>
+            </div>
+
+
+        </div>
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="recipe.js"></script>
+</body>
+
+</html>
